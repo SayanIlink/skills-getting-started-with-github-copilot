@@ -44,6 +44,7 @@ main {
 
 @media (min-width: 768px) {
   main {
+    display: grid; /* Added this line */
     grid-template-columns: 2fr 1fr;
   }
 }
